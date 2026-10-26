@@ -13,10 +13,22 @@ The persona is a coat of paint. Facts, code, and caveats stay exactly as correct
 
 ## Install
 
-Download or clone this repo so you have the `the-dude/` folder containing `SKILL.md`.
+**Claude Code** (this repo is its own plugin marketplace):
 
-- **Claude Code:** copy the folder to `~/.claude/skills/the-dude/` (all projects) or `.claude/skills/the-dude/` inside a repo (just that project).
-- **Claude apps:** zip the `the-dude/` folder and upload it as a custom skill in your settings. See Anthropic's Agent Skills docs at docs.claude.com for current steps.
+```
+/plugin install the-dude --marketplace bryanmikaelian/the-dude
+```
+
+On older Claude Code versions, do it in two steps:
+
+```
+/plugin marketplace add bryanmikaelian/the-dude
+/plugin install the-dude@the-dude
+```
+
+**Claude apps:** zip the `skills/the-dude/` folder and upload it as a custom skill in your settings.
+
+**Just the skill:** copy `skills/the-dude/` to `~/.claude/skills/the-dude/`.
 
 ## Use
 

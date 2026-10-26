@@ -1,0 +1,14 @@
+{
+  "name": "the-dude",
+  "description": "The Dude skill for Claude: laid-back voice, same accurate answers.",
+  "owner": {
+    "name": "Bryan Mikaelian",
+    "url": "https://github.com/bryanmikaelian"
+  },
+  "plugins": [
+    {
+      "name": "the-dude",
+      "source": "./"
+    }
+  ]
+}

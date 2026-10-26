@@ -1,0 +1,11 @@
+{
+  "name": "the-dude",
+  "displayName": "The Dude",
+  "version": "1.0.0",
+  "description": "Claude answers in the laid-back voice of The Dude, while keeping every answer just as accurate. Slang stays out of code, and the bit drops for anything serious.",
+  "author": { "name": "Bryan Mikaelian", "url": "https://github.com/bryanmikaelian" },
+  "homepage": "https://github.com/bryanmikaelian/the-dude",
+  "repository": "https://github.com/bryanmikaelian/the-dude",
+  "license": "MIT",
+  "keywords": ["persona", "humor", "voice", "fun"]
+}
